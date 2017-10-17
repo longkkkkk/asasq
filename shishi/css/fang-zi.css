@@ -1,0 +1,352 @@
+#header {
+  width: 100%;
+  height: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0; }
+  #header li:nth-of-type(1) {
+    width: 30%;
+    height: 0.54rem;
+    margin-top: 0.16rem;
+    margin-bottom: 0.16rem;
+    margin-left: 0.18rem; }
+    #header li:nth-of-type(1) img {
+      width: 2.2rem;
+      height: 0.5rem; }
+  #header li:nth-of-type(2) {
+    width: 15%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 0.18rem; }
+    #header li:nth-of-type(2) a {
+      width: 40%;
+      height: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      color: #999;
+      font-size: 0.14rem; }
+      #header li:nth-of-type(2) a i {
+        font-size: .33rem;
+        color: #999999; }
+
+#nav {
+  width: 100%;
+  height: 2.35rem;
+  position: relative; }
+  #nav img {
+    width: 100%;
+    height: 100%; }
+  #nav ul {
+    width: 1rem;
+    height: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 45%; }
+    #nav ul li {
+      width: 0.12rem;
+      height: 0.12rem;
+      border-radius: 50%;
+      background: #7c7c7c; }
+    #nav ul li:nth-of-type(1) {
+      background: #00be9c; }
+
+#aside {
+  width: 100%;
+  height: 4.7rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 0.18rem solid #f4f4f4; }
+  #aside li {
+    width: 22%;
+    height: 45%;
+    font-size: 0.28rem;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden; }
+    #aside li img {
+      width: 1.2rem;
+      height: 1.2rem; }
+    #aside li p {
+      width: 1.12rem;
+      height: 0.28rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden; }
+
+#section {
+  width: 100%;
+  height: 1.06rem;
+  display: flex;
+  justify-content: center; }
+  #section ul {
+    width: 95%;
+    height: 0.42rem;
+    border-left: 0.05rem solid #2bb281;
+    display: flex;
+    margin-top: 0.32rem;
+    margin-bottom: 0.32rem; }
+    #section ul li:nth-of-type(1) {
+      width: 1.55rem;
+      height: 0.42rem;
+      font-size: 0.36rem;
+      color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    #section ul li:nth-of-type(2) {
+      width: 60%;
+      height: 0.42rem;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      font-size: 0.24rem;
+      color: #999; }
+
+#address {
+  width: 100%;
+  height: 4.55rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  #address .top {
+    width: 95%;
+    height: 4.04rem; }
+    #address .top img {
+      width: 100%;
+      height: 100%; }
+  #address ul {
+    width: 0.54rem;
+    height: 0.15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.2rem;
+    margin-bottom: 0.36rem; }
+    #address ul li {
+      width: 0.12rem;
+      height: 0.12rem;
+      border-radius: 50%;
+      background: #7c7c7c; }
+    #address ul li:nth-of-type(1) {
+      background: #00be9c; }
+
+.zeng {
+  width: 100%; }
+  .zeng ul {
+    margin-top: 0.36rem;
+    display: flex;
+    justify-content: space-around; }
+    .zeng ul li {
+      display: flex; }
+      .zeng ul li img {
+        height: 0.26rem;
+        margin-right: 0.12rem; }
+      .zeng ul li p {
+        font-size: 0.2rem;
+        color: #000; }
+
+.xiao {
+  text-align: center;
+  border-bottom: 0.18rem solid #f4f4f4; }
+  .xiao input {
+    width: 5.86rem;
+    height: 0.7rem;
+    border: 1px solid #eaeaea;
+    border-radius: 0.05rem;
+    font-size: 0.28rem;
+    color: #cacaca; }
+  .xiao button {
+    width: 5.86rem;
+    height: 0.7rem;
+    border: 1px solid #eaeaea;
+    border-radius: 0.05rem;
+    font-size: 0.36rem;
+    color: white;
+    background: yellow;
+    margin-bottom: 0.36rem; }
+
+.she {
+  margin-top: 0.4rem;
+  width: 100%; }
+  .she ul {
+    display: flex;
+    justify-content: space-around; }
+    .she ul li {
+      text-align: center; }
+      .she ul li img {
+        height: 1.4rem;
+        margin-bottom: 0.25rem; }
+      .she ul li p:nth-of-type(1) {
+        font-size: 0.36rem;
+        color: #000;
+        margin-bottom: 0.25rem; }
+      .she ul li p:nth-of-type(2) {
+        font-size: 0.24rem;
+        text-align: center;
+        width: 1.2rem;
+        height: 0.32rem;
+        background: #39C893;
+        color: white;
+        margin-bottom: 0.36rem;
+        border-radius: 0.05rem; }
+  .she .huan {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.18rem solid #f4f4f4; }
+    .she .huan div {
+      border: 1px solid #E7E7E7;
+      height: 0.7rem;
+      width: 45%;
+      display: flex;
+      justify-content: center; }
+      .she .huan div p {
+        color: #39CA94;
+        font-size: 0.28rem;
+        line-height: 0.7rem; }
+      .she .huan div img {
+        height: 0.28rem;
+        margin-top: 0.2rem; }
+
+.fang {
+  width: 100%;
+  text-align: center; }
+  .fang .img1 {
+    width: 97%;
+    height: 5.06rem; }
+  .fang div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .fang div img {
+      width: 47%;
+      height: 3rem;
+      margin-bottom: 0.08rem; }
+
+.hua {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0.2rem;
+  border-bottom: 0.18rem solid #f4f4f4; }
+  .hua div {
+    border: 1px solid #E7E7E7;
+    height: 0.7rem;
+    width: 45%;
+    display: flex;
+    justify-content: center; }
+    .hua div p {
+      color: #39CA94;
+      font-size: 0.28rem;
+      line-height: 0.7rem; }
+    .hua div img {
+      height: 0.28rem;
+      margin-top: 0.2rem; }
+
+.gong {
+  width: 100%; }
+  .gong img {
+    margin-left: 2%;
+    width: 97%;
+    height: 5.34rem; }
+  .gong p span:nth-of-type(1) {
+    margin-left: 2%;
+    margin-right: 4%;
+    font-size: 0.28rem;
+    color: #000; }
+  .gong p span:nth-of-type(2) {
+    font-size: 0.28rem;
+    color: white;
+    background: #39C893;
+    padding: 1%;
+    border-radius: 0.05rem; }
+
+.zuang {
+  width: 100%; }
+  .zuang ul {
+    width: 100%; }
+    .zuang ul li {
+      display: flex;
+      margin-bottom: 0.31rem;
+      margin-top: 0.32rem; }
+      .zuang ul li .img1 {
+        width: 1.9rem;
+        height: 1.45rem;
+        margin-right: 2%; }
+      .zuang ul li p {
+        font-size: 0.3rem;
+        color: #000;
+        margin-bottom: 0.3rem; }
+      .zuang ul li div div {
+        display: flex; }
+        .zuang ul li div div p img {
+          height: 0.28rem; }
+        .zuang ul li div div p span {
+          font-size: 0.28rem;
+          color: #999; }
+
+#xx {
+  padding: 0.36rem 0;
+  width: 95%;
+  margin-left: 2%;
+  font-size: 0.28rem;
+  line-height: 0.4rem;
+  text-indent: 0.56rem;
+  color: #333;
+  border-bottom: 0.18rem solid #f4f4f4; }
+
+.fooer {
+  width: 100%; }
+  .fooer .fu {
+    text-align: center;
+    width: 100%; }
+    .fooer .fu img {
+      height: 0.32rem; }
+    .fooer .fu span {
+      font-size: 0.28rem;
+      color: #333; }
+  .fooer .cu {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.28rem;
+    color: #333; }
+  .fooer .main {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 1.06rem;
+    display: flex; }
+    .fooer .main img {
+      width: 70%; }
+    .fooer .main p {
+      height: 0.5rem;
+      text-align: center;
+      line-height: 0.5rem;
+      color: white;
+      margin-top: 0.2rem;
+      font-size: 0.24rem;
+      width: 2.25rem;
+      background: #feb605;
+      border-radius: 0.2rem; }
+  .fooer .mk {
+    background: #282828; }
+    .fooer .mk a {
+      margin-left: 2%; }
+      .fooer .mk a span {
+        font-size: 0.4rem; }
+
+/*# sourceMappingURL=fang-zi.css.map */
